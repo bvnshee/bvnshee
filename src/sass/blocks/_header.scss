@@ -1,4 +1,9 @@
 .header {
+  .active {
+    background-color: #fff;
+    color: #121212;
+    border-radius: 4px;
+  }
   &__logo {
     position: absolute;
     margin-top: 22px;

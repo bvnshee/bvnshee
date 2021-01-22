@@ -1,0 +1,42 @@
+.services {
+  overflow: hidden;
+  background-color: #efefef;
+  padding: 100px 0;
+  &__title {
+    font-size: 30px;
+    color: #121212;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+  &-content {
+    display: flex;
+    &__block {
+      display: flex;
+      margin-top: 93px;
+      margin-left: 100px;
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      &__icon {
+        filter: grayscale(1);
+      }
+      &__text {
+        margin-left: 38px;
+        width: 470px;
+        span {
+          color: #121212;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        p {
+          color: #7b7b7b;
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 21px;
+        }
+      }
+    }
+  }
+}
