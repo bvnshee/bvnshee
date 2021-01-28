@@ -17,6 +17,13 @@
     border: 2px solid #fff;
     margin-top: 79px;
     padding: 57px 31px 48px 31px;
+    border-radius: 15px;
+    &:nth-child(1) {
+      border-right: none;
+    }
+    &:nth-child(3) {
+      border-left: none;
+    }
     &__title {
       text-transform: uppercase;
       color: #787878;
