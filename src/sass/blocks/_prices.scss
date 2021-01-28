@@ -14,7 +14,7 @@
   &-block {
     width: 391px;
     height: 560px;
-    border: 2px solid #fff;
+    border: 2px solid #efefef;
     margin-top: 79px;
     padding: 57px 31px 48px 31px;
     border-radius: 15px;
@@ -80,7 +80,7 @@
       font-size: 20px;
       cursor: pointer;
       border: 2px solid white;
-      transition: 0.4s;
+      transition: 0.4s ease-in;
       text-transform: uppercase;
       &:hover {
         color: #121212;

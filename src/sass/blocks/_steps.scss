@@ -10,8 +10,8 @@
   }
   &__content {
     display: flex;
+    justify-content: space-between;
     &-block {
-      margin-left: 87px;
       &:nth-child(1) {
         margin-left: 0;
       }
